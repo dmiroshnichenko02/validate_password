@@ -1,0 +1,37 @@
+.main {
+    width: 450px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    h1 {
+        font-size: 44px;
+        margin-bottom: 25px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #636363;
+    }
+    label {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    input {
+        border: none;
+        outline: none;
+        width: 300px;
+        height: 28px;
+        padding: 4px 8px;
+        border-radius: 5px;
+        background-color: #dbdbdb;
+        margin-bottom: 25px;
+    }
+
+    .ease,
+    .medium,
+    .hard {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
